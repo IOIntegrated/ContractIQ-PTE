@@ -4,6 +4,9 @@
       "path": "Contract IQ"
     },
     {
+      "path": "ContractIQ.Test"
+    },
+    {
       "path": ".AL-Go"
     }
   ],
