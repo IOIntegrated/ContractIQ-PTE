@@ -1,0 +1,16 @@
+{
+    "versions": [
+            {
+                "version": "6",
+                "SqlConnectionString": "Data Source=localhost;Initial Catalog=Demo Database NAV (6-0);Integrated Security=SSPI;",
+                "SourceDatabase": "Demo Database NAV (6-0)",
+                "SourceCompany": "CRONUS AG"
+            },
+            {
+                "version": "11",
+                "SqlConnectionString": "Data Source=localhost;Initial Catalog=Demo Database NAV (11-0);Integrated Security=SSPI;",
+                "SourceDatabase": "Demo Database NAV (11-0)",
+                "SourceCompany": "CRONUS AG"
+            }
+    ]
+}

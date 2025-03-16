@@ -1,31 +1,43 @@
 {
-  "id": "4c395abe-4312-411e-9d44-cca818aaa0d0",
+  "applicationInsightsConnectionString": "InstrumentationKey=42227453-923d-4645-a4fe-bbe0c2dd09a2;IngestionEndpoint=https://germanywestcentral-1.in.applicationinsights.azure.com/;LiveEndpoint=https://germanywestcentral.livediagnostics.monitor.azure.com/;ApplicationId=9d95132a-6c06-45b7-92da-6534a663bb52",
+  "id": "a3300208-59eb-4791-b3c0-115a4de782c6",
   "name": "Contract IQ",
-  "publisher": "IO Integrated GmbH & Co. KG",
+  "publisher": "IO Integrated GmbH & Co.KG",
   "version": "1.0.0.0",
-  "brief": "",
-  "description": "",
-  "privacyStatement": "",
-  "EULA": "",
-  "help": "",
-  "url": "",
-  "logo": "",
+  "brief": "Contract IQ ist eine hochkonfigurierbare Lösung für die nahtlose Bewertung und Abrechnung von Geschäftsvorfällen.",
+  "description": "Anhand von Contract IQ legen Sie fest welche Datenabzurechnen wie abzurechnen sind. Hierbei können die Daten aus beliebigen Quellen stammen und beliebig verarbeitet werden. Contract IQ ist eine hochkonfigurierbare Lösung für die nahtlose Bewertung und Abrechnung von Geschäftsvorfällen.",
+  "privacyStatement": "https://ioi.gmbh/datenschutzerklaerung/",
+  "EULA": "https://ioi.gmbh/wp-content/uploads/2024/07/agb.pdf",
+  "help": "https://ioi.gmbh/kontakt",
+  "url": "https://ioi.gmbh",
+  "logo": "Logo-01.png",
+  "contextSensitiveHelpUrl": "https://ioi.gmbh",
   "dependencies": [],
   "screenshots": [],
   "platform": "1.0.0.0",
-  "application": "22.0.0.0",
+  "application": "25.3.0.0",
   "idRanges": [
     {
       "from": 70000,
       "to": 70149
     }
   ],
-  "features": [
-    "NoImplicitWith"
-  ],
   "resourceExposurePolicy": {
-    "allowDebugging": true,
+    "allowDebugging": false,
     "allowDownloadingSource": false,
     "includeSourceInSymbolFile": false
-  }
+  },
+  "runtime": "14.2",
+  "features": [
+    "NoImplicitWith",
+    "TranslationFile",
+    "GenerateCaptions"
+  ],
+  "supportedLocales": [
+    "en-US",
+    "de-DE"
+  ],
+  "resourceFolders": [
+    "Settings"
+  ]
 }
