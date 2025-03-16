@@ -1,0 +1,13 @@
+{
+    "al.useLegacyRuntime": false,
+    "al.legacyNavServerInstance": "",
+    "al.enableCodeAnalysis": true,
+    "al.environmentType": "Sandbox",
+    "al.environmentName": "sandbox",
+    "al.auth": "AAD",
+    "al.cloud": true,
+    "al.resource": "https://businesscentral.dynamics.com",
+    "al.tenant": "c4d0f475-9a8a-4dfb-9919-c1475a4e8015",
+    "al.appId": "a3300208-59eb-4791-b3c0-115a4de782c6",
+    "al.subscriptionId": "dd26767b-dd5e-4be5-a350-f0c6644f3657"
+}
