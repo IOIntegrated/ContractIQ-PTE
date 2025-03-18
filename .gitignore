@@ -12,6 +12,8 @@ rad.json
 .dependencies/
 .buildartifacts/
 .alpackages/
+!.alpackages/Microsoft_Any*.app
+!.alpackages/Microsoft_Library*.app
 .packages/
 .alcache/
 .altemplates/

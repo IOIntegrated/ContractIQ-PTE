@@ -14,32 +14,38 @@
   "launch": {
     "configurations": [
       {
-        "name": "Publish: Microsoft cloud sandbox",
+        "name": "BC25 Docker",
+        "type": "al",
+        "request": "attach",
+        "environmentType": "OnPrem",
+        "server": "http://bc25",
+        "serverInstance": "BC",
+        "authentication": "UserPassword",
+        "breakOnError": "All",
+        "breakOnRecordWrite": "None",
+        "enableSqlInformationDebugger": true,
+        "enableLongRunningSqlStatements": true,
+        "longRunningSqlStatementsThreshold": 500,
+        "numberOfSqlStatements": 10,
+        "breakOnNext": "WebServiceClient",
+        "tenant": "default"
+      },
+
+      {
+        "name": "Sandbox Rotodent",
         "type": "al",
         "request": "launch",
         "environmentType": "Sandbox",
         "environmentName": "sandbox",
         "startupObjectId": 22,
         "breakOnError": "All",
+        "tenant": "8a3bba33-efdd-4638-a222-9683fc5159bd",
         "breakOnRecordWrite": "None",
         "launchBrowser": true,
         "enableSqlInformationDebugger": true,
         "enableLongRunningSqlStatements": true,
         "longRunningSqlStatementsThreshold": 500,
         "numberOfSqlStatements": 10
-      },
-      {
-        "name": "Microsoft cloud sandbox",
-        "request": "launch",
-        "type": "al",
-        "environmentType": "Sandbox",
-        "environmentName": "sandbox",
-        "startupObjectId": 22,
-        "startupObjectType": "Page",
-        "breakOnError": "All",
-        "launchBrowser": true,
-        "enableLongRunningSqlStatements": true,
-        "enableSqlInformationDebugger": true
       }
     ]
   }
